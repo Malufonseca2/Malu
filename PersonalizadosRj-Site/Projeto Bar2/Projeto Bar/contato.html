@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizados Rj</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        fieldset{
+            height: 13rem;
+        }
+        footer {
+            margin-top: 3rem;
+            align-items: center;
+            background-color: red;
+            color: #000000;
+            display: flex;
+            font-size: 1.4rem;
+            justify-content: center;
+            padding: 0.1rem;
+            position: relative;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="menu">
+        <div>
+            <a class="d" href="Index.html"> PERSONALIZADOS RJ </a>
+        </div>
+        <nav>
+            <ul class="menu-itens">
+                <li><a class="b" href="Index.html"> Home</a></li>
+                <li><a class="b" href="Engraçadas.html"> Engraçadas</a></li>
+                <li><a class="b" href="Animais.html"> Animais</a></li>
+                <li><a class="b" href="Novidades.html"> Novidades</a></li>
+                <li><a class="b" href="contato.html"> Contato</a></li>
+                <li><a class="b" href="quemsomos.html"> Quem somos</a></li>
+                <button id="carrinho"><img class="carrinho" src="carrinho.png"></button>
+            </ul>
+        </nav>
+    </div>
+    <div class="meio-contato">
+        <h1> Contato </h1>
+        <hr>
+        <h2> Redes sociais: </h2>
+        <div  style="display: flex; justify-content: space-around;">
+            <a id="socialmedia" class="strokeme" href="https://www.instagram.com/camisa_camiseta_personalizada/"><b>Instagram</b></a>
+            <a id="socialmedia" class="strokeme" href="https://www.facebook.com/Personalizados-RJ-107723954106691"><b>Facebook</b></a>
+
+        </div>
+        <h2> Email: maluguetta2@gmail.com</h2>
+        <h2> Telefone: (21) 96739-6561</h2>
+        <h2> Endereço: Rua Gonçalves Lêdo, 66 - Centro</h2>
+        <h2> Rio de janeiro - RJ </h2>
+        <h2> CEP: 20.060-20</h2>
+    </div>
+    <div id="googleMaps">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.2369631682736!2d-43.18612268540052!3d-22.90462904355157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997f67fa524071%3A0x651f843106873425!2sRua%20Gon%C3%A7alves%20L%C3%A9do%2C%2066%20-%20Centro%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2020060-020!5e0!3m2!1spt-BR!2sbr!4v1648825050101!5m2!1spt-BR!2sbr"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        <fieldset>
+            <legend><b>Cadastro/Login</b></legend>
+               <form>
+               <p><label>Nome:</label>
+               <input name= "nome" required type= "text" size=40 maxlength=40 placeholder="Digite o seu nome" value=""autocomplete=off>
+               <label>CPF:<input type= "CPF" name= "cpf" size="20" maxlength="11" placeholder= "Digite seu CPF" size=40 ></label>
+               <br></br>
+               <label>Endereço:</label>
+               <input name= "endereco" required type= "text" size=60 maxlength=60 placeholder="Digite o seu endereço" value="">             
+               <label>Número:</label>
+               <input name= "numero" required type= "number" min="0" max="10000" value="0"></p>
+               <p><label>Nascimento:<input type= "date" name="nascimento"></label>
+               <label>E-mail:<input type= "Email" name= "email" placeholder= "Digite seu E-mail" size=30 ></label></p>
+                   <p><input type= submit value= Cadastrar></p>
+                    <p><input type= submit value= Login></p>
+               </form>
+        </fieldset>
+    </div>
+    <footer>
+        <p>Copyright © 2022 | PersonalizadosRJ. Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
